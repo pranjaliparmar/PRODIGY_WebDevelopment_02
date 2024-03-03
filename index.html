@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch with Lap</title>
+    
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div>
+    <nav class="navbar">
+        <div class="navbar">
+            <div class="content">
+                <div class="logo">
+                    <a href="#">Pranjali Parmar</a>
+                </div>
+            </div>
+                <div class="stopwatch">
+                    <div class="time"><span id="display">00:00:00.00</span>s</div>
+                    <div class="controls">
+                        <button id="startStop" onclick="startStop()">Start</button>
+                        <button id="lapReset" onclick="lapReset()">Lap</button>
+                    </div>
+                    <ul id="lapList" class="lap-list"></ul>
+                </div>
+        </div>
+    </nav>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
